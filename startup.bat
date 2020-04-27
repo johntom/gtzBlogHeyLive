@@ -10,4 +10,8 @@ nvm use 10.15.3
 timeout 1
 rem hexo server -i 74.114.164.18 -p 80
 REM npm install bigcat/hexo-deployer-gcs
+REM  "scripts": {
+REM     "start": "hexo server -i 127.0.0.1 -p 80",
+REM     "deploy": "gcloud app deploy"
+REM   },
 hexo server -i 127.0.0.1 -p 80

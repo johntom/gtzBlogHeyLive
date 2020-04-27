@@ -5,10 +5,7 @@
   "hexo": {
     "version": "3.2.2"
   },
-  "scripts": {
-    "start": "hexo server -i 127.0.0.1 -p 80",
-    "deploy": "gcloud app deploy"
-  },
+  
   "dependencies": {
     "hexo": "^3.1.1",
     "hexo-admin": "^2.1.0",
