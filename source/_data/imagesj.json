@@ -1,0 +1,19 @@
+ [
+    
+
+    {
+      "id": 4,
+      "location": "Amagansett",
+      "path": "/images/panaromic/slide4.jpg"
+    },
+    {
+      "id": 5,
+      "location": "Greenport",
+     "path": "/images/panaromic/slide5.jpg"
+    },
+    {
+      "id": 6,
+      "location": "Bayville",
+     "path": "/images/panaromic/slide6.jpg"
+  }]
+

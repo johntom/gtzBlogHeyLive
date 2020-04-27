@@ -1,0 +1,41 @@
+---
+title: Contact
+date: 2015-11-29 21:00:03
+layout: contact
+---
+<h2>Let us help</h2>
+<p>Send a reqest.</p>
+<!-- BEGIN FORM-->
+<!--<form action="//formspree.io/jrtgtz@gmail.com" method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <textarea name="message"></textarea>
+
+    <input type="text" name="_gotcha" style="display:none">
+    <input type="hidden" name="_subject" value="Message via http://www.gtz.com">
+
+    <input type="submit" value="Send">
+</form>-->
+ <!--<a href="mailto:jrt@gtz.com" style="color:#2c2c2c;font-size:12px;margin-left:8px;"><i class="icon-envelope"></i>info@gtz.com</a><br>-->
+               
+<form  action="//formspree.io/jrtgtz@gmail.com" method="POST">
+  <div class="form-group">
+    <label for="contacts-name">Name</label>
+    <input type="text" class="form-control" name="contacts-name">
+  </div>
+  <div class="form-group">
+    <label for="contacts-email">Email</label>
+    <input type="email" class="form-control" name="contacts-email">
+  </div>
+  <div class="form-group">
+    <label for="contacts-message">Message</label>
+    <textarea class="form-control" rows="5" name="contacts-message"></textarea>
+  </div>
+  <input type="hidden" name="_subject" value="Message via http://www.gtz.com">
+  <button type="submit" class="btn btn-primary"><i class="icon-ok"></i> Send</button>
+  <button type="button" class="btn btn-default">Cancel</button>
+</form>
+
+
+<!--<script> ContactForm() </script>-->
+<!-- END FORM-->

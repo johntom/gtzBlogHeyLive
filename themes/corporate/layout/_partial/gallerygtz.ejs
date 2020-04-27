@@ -1,0 +1,67 @@
+<% if(site.data.imagesj) {%>
+
+  <div class="widget-wrap">
+    <h3 class="widget-title">
+      <!-- <%= site.data.imagesj.length %> :Popular fancybox themes\corporate\layout\_partial\gallerygtz.ejs </h3> -->
+    <div class="widget">
+      <div class="col-md-12 front-carousel">
+        <div id="myCarousel" class="carousel slide">
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+            <% for (item in site.data.imagesj) { %>
+              <% if(item==='0'){%>
+               <div class="item active">
+               <% }else {%>
+               <div class="item">
+              <% } %>
+                        <img src="<%= site.data.imagesj[item].path %>">
+                        <div class="carousel-caption">
+                          <p>
+                            <%= site.data.imagesj[item].id %>-
+                              <%= site.data.imagesj[item].location %>
+                          </p>
+                        </div>
+                    </div>
+                    <% } %>
+                </div>
+                <!-- Carousel nav -->
+                <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                  <i class="fa fa-angle-left"></i>
+                </a>
+                <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                  <i class="fa fa-angle-right"></i>
+                </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <% } %>
+
+      <% if(site.data.imagesj) {%>
+
+        <div class="widget-wrap">
+          <h3 class="widget-title">
+           <!-- <%= site.data.imagesj.length %> :Popular Images themes\corporate\layout\_partial\gallerygtz.ejs </h3>
+         -->
+          <div class="widget">
+            <div class="row">
+              <div class="col-md-12">
+                <% for (item in site.data.imagesj) { %>
+                  <img class="wow fadeIn img-responsive" src="<%= site.data.imagesj[item].path %>">
+                  <h4>
+                    item
+                    <%= item%> |
+                      <%= site.data.imagesj[item].id %>-
+                        <%= site.data.imagesj[item].location %>
+                  </h4>
+                  </img>
+                  <% } %>
+              </div>
+            </div>
+          </div>
+        </div>
+        <% } %>
+
+
+

@@ -1,0 +1,32 @@
+ [
+    {
+      "id": 1,
+      "location": "Greenport",
+      "path": "/images/panaromic/slide1.jpg"
+    },
+    {
+      "id": 2,
+      "location": "Greenport",
+      "path": "/images/panaromic/slide2.jpg"
+    },
+    {
+      "id": 3,
+      "location": "Amagansett",
+    "path": "/images/panaromic/slide3.jpg"
+    },
+    {
+      "id": 4,
+      "location": "Amagansett",
+      "path": "/images/panaromic/slide4.jpg"
+    },
+    {
+      "id": 5,
+      "location": "Greenport",
+     "path": "/images/panaromic/slide5.jpg"
+    },
+    {
+      "id": 6,
+      "location": "Bayville",
+     "path": "/images/panaromic/slide6.jpg"
+  }]
+
